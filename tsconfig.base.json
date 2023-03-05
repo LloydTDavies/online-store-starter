@@ -14,7 +14,14 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@online-store-starter/orders/feature": [
+        "libs/orders/feature/src/index.ts"
+      ],
+      "@online-store-starter/shared/ui/layout": [
+        "libs/shared/ui/layout/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

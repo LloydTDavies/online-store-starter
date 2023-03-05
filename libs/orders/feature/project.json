@@ -1,0 +1,26 @@
+{
+  "projectType": "library",
+  "root": "libs/orders/feature",
+  "sourceRoot": "libs/orders/feature/src",
+  "prefix": "online-store-starter",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/orders/feature"],
+      "options": {
+        "jestConfig": "libs/orders/feature/jest.config.ts",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/orders/feature/src/**/*.ts",
+          "libs/orders/feature/src/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

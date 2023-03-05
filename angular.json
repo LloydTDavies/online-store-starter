@@ -1,6 +1,8 @@
 {
   "version": 2,
   "projects": {
+    "orders-feature": "libs/orders/feature",
+    "shared-ui-layout": "libs/shared/ui/layout",
     "store-web-app": "apps/store-web-app",
     "store-web-app-e2e": "apps/store-web-app-e2e"
   }
